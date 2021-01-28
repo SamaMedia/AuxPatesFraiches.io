@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu-flex div h1 {
+	color: #e7b200;
+	position: relative;
+	top: 0px;
+	font-family: 'Italianno', cursive;
+	font-size: 3.3rem;
+}
+.menu-flex div h1:after {
+	content: ' ~ ';
+}
+.menu-flex div h1:before {
+	content: ' ~ ';
+	position: relative;
+	top: 0px;
+}
+/*  //////////////////////////////////////////////// NEW CODE ////////////////////////////////////////////////////////////////////*/
+
+.menu-caption, .menu-chess {}
+
+.menu-caption a {
+	border-radius: 5rem;
+	border: 0;
+	background-color: #e7b200;
+	padding:1% 5%;
+	transition: all 0.1s ease-in-out;
+}
+.menu-caption a:hover {
+	background: #D3A200;
+	transform: scale(1.05, 1.05);
+	
+}
+.menu-chess .d-flex .c-click{
+	position: relative;
+	
+}
+.menu-chess .d-flex .c-click .a-cont{
+	position: absolute;
+	top: 0;
+	
+} 
+.c-click img {
+	width: 150px;
+	height: 150px;
+}
+.h-cap {
+	width: 150px;
+	height: 150px;
+}
+.h-cap a h2 {
+	line-height: 150px;
+	color: #e7b200;
+	font-family: 'Italianno', cursive;
+	transition: all 0.1s ease-in;
+}
+.h-cap a:hover {
+	text-decoration: none;
+}
+.h-cap a h2:hover {
+	transform: scale(1.4, 1.4);
+}
+.a-cont {
+	height: 150px;
+	width: 150px;
+}
+.a-cont a {
+	background-color: #e7b200;
+	border: 0;
+	border-radius: 0;
+	display: none;
+}
+/*Media Queries*/
+/* Extra Small devices. */
+
+
+
+/* Media Queries */
+@media (min-width: 200px) and (max-width: 565px){
+	.menu-flex {
+		margin: 15vh 5vw;
+	}
+	.menu-caption {
+		margin-bottom: 15vh;
+	}
+	.menu-caption, .menu-chess {
+		width: 100%;	
+	}
+	.d-flex-int {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.c-click {
+		width: 120px;
+		height: 120px;
+	}
+	.c-click img {
+		width: 120px;
+		height: 120px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.menu-chess .d-flex {
+		flex-direction: column;
+	}	
+	.c-click .a-cont {
+		margin-left: auto;
+		margin-right: auto;
+		height: 120px;
+		width: 120px;
+		border: 3px solid red;
+	}
+	.menu-chess {
+		flex-direction: column;
+	}
+	.h-cap {
+		width: 120px;
+		height: 120px;
+	}
+	.h-cap a h2 {
+		line-height: 120px;
+		font-size: 1.6rem;
+	}
+	.menu-caption a {
+		padding: 3%;
+	}
+	
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+
+	.c-click img {
+		width: 150px;
+		height: 150px;
+		
+	}
+	.c-click .a-cont {
+		width: 150px;
+		height: 150px;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+	/*
+	.menu-flex .d-flex .c-click .a-cont {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 150px;
+		width: 150px;
+	}
+	.menu-flex .d-flex img {
+		height: 150px;
+		width: 150px;
+	}
+	.h-cap {
+		height: 150px;
+		width: 150px;
+	}
+	.h-cap h2 {
+		line-height: 150px;
+		font-size: 2rem;
+	}
+	
+	.menu-flex .h1-content {
+		width: 50vw;
+	}
+	*/
+	.menu-flex {
+		margin-top: 10vh;
+		margin-bottom: 20vh;
+	}
+	.menu-caption {
+		margin-bottom: 20vh;
+		padding: 5vh 10vw;
+	}
+	.menu-caption h1 {
+		margin-bottom: 15vh !important;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	
+	.menu-flex {
+		margin: 20vh 2vw;
+	}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 4000px) { 
+	
+	
+
+}

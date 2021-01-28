@@ -1,0 +1,61 @@
+
+.img-main {
+	border-radius: 5px;
+	box-shadow: 3px 5px 6px 1px gray;
+}
+.title-f {
+	font-family: 'Italianno', cursive;
+	color: #e7b200;
+	font-size: 300%;
+}
+.top-gal div{
+	
+}
+
+/* Media Queries */
+@media (min-width: 200px) and (max-width: 565px){
+	.img-main {
+		height: 200px;
+		width: 200px;
+		margin-bottom: 3rem;
+	}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+	.img-main {
+		height: 200px;
+		width: 200px;
+		margin-bottom: 3rem;
+
+	}
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+	.img-main {
+		height: 200px;
+		width: 200px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.reserve-header h1 {
+		font-size: 4rem;
+	}
+	.img-main {
+		height: 200px !important;
+		width: 200px !important;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 4000px) { 
+	.reserve-header h1 {
+		font-size: 4rem;
+	}
+	.img-main {
+		height: 200px !important;
+		width: 200px !important;
+	}
+}

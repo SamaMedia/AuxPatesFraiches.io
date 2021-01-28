@@ -1,0 +1,340 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+/* font-family: 'Italianno', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+/*font-family: 'Tinos', serif; (for headings)*/
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+/*font-family: 'Jost', sans-serif;*/
+
+
+
+* {
+	box-sizing: border-box;
+} 
+/*Body*/
+body {
+	margin: 0;
+	height: 100vh;
+	font-family: 'Jost', sans-serif;
+	
+}
+.bg-main-img {
+	/*background-image: url("../img/bg/ristorante-in-bw-c.jpg");*/
+}
+
+
+#top-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	clear: both;
+	float: left;
+	background-color: #e7b200;
+	height: 30px;
+	transition: all 0.1s linear;
+}
+.search-button {
+	
+	border: 0px solid transparent;
+	border-radius: 50%;
+	transition: background 0.2s linear;
+	line-height: 30px;
+}
+.search-button i, .btn-login i {
+	color: #313332;
+	padding:0 3px;
+	transition: color 0.2s ease-in;
+}
+.search-button i:hover, .btn-login i:hover {
+	color: azure;
+	cursor: pointer;
+}
+.sm-icons {
+	line-height: 30px;
+}
+.sm-icons a {
+	height: 30px !important;
+	width: 25px;
+	color: #313332;
+	padding: 0 3px;	
+}
+.sm-icons a i {transition: color 0.2s ease-in;}
+.sm-icons a i:hover {
+	color: azure;
+}
+
+
+.navbar-toggler {
+	border-color: #8b6400 !important;
+	border: 2px solid #8b6400;
+}
+.navbar-toggler i {
+	color: #e7b200;
+}
+
+nav {
+	position: relative;
+	top: 30px;
+}
+nav.navbar {
+	background: transparent;
+}
+ul.navbar-nav li a {
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #563E00 !important;
+	transition: color 0.1s ease-in;
+}
+ul.navbar-nav li a:hover {
+	text-decoration: underline;
+	color: #E7B200 !important;
+}
+#navbarDropdownMenuLink {
+	text-decoration: underline;
+}
+#divDropDown {
+	transition: display 0.4s linear;
+}
+
+.dropdown-menu {
+	border-radius: 0;
+	border-color: transparent;
+	text-align: center;
+}
+
+.search-nav {
+	background-color:#313332;
+	position: absolute;
+	top: 30px;
+	z-index: 10;
+	width: 100%;
+	display: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.search-nav div {
+	
+}
+.search-nav form {
+	display: inline-block;
+	align-self: center;
+}
+.search-nav button {
+	color: #e7b200;
+}
+.search-nav form input[type=search] {
+	display: inline;
+	border:0;
+	padding: 4%;
+	height: 25px;
+}
+.search-nav form input[type=search]:focus {
+	border:0;
+	outline-color: transparent;
+	outline-style: none;
+	border-bottom: 2px solid #009615;
+}
+.search-nav form input[type=submit] {
+	display: inline;
+	border:0;
+	background-color:#e7b200;
+	height: 25px;
+}
+.close-btn {
+	display: inline;
+	padding: 0;
+	margin:0;
+	border: 0;
+	background: transparent;
+}
+.close-btn i {
+	line-height: 30px;
+}
+
+
+.space-div {
+	width: 100%;
+	height: 110px;
+	background-color: transparent;
+}
+
+.bgcolor.scrolled {
+	background: black !important;
+}
+/*NAVIGATION ENDS HERE.*/
+
+
+/*Section in index (line 192)*/
+.section-about-infos {
+	background-image: url("../img/bg/chefs/ristorante-chefs-c-2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.section-about-infos h2 {
+	
+	color: #EAC74F;	
+}
+.section-about-infos div {}
+.section-about-infos div a {
+	border-radius:5rem;
+	border: 0;
+	background: #e7b200;
+	padding:5%;
+	font-size: 110%;
+	transition: all 0.1s ease-in-out;
+}
+.section-about-infos div a:hover {
+	transform: scale(1.05, 1.05);
+	background-color: #D3A200;
+}
+/*background: #D3A200;*/
+
+#counter h1 {
+	font-family:  'Italianno', cursive;
+	font-size: 300%;
+	color: #e7b200;
+}
+
+
+.solde-c {
+	background-image: url('../img/bg/dish-jay-c.jpg');
+	background-size: cover;
+}
+.solde-c h1 {
+	color: #e7b200;
+	font-family:  'Italianno', cursive;
+	font-size: 300%;
+}
+.solde-c h3 {
+	color: white;
+}
+.solde-c a {
+	border-radius: 5rem;
+	padding: 1%;
+	color: white;
+	background-color: #e7b200;
+}
+.testimonials h1 {
+	font-family:  'Italianno', cursive;
+	font-size: 350%;
+	color: #e7b200;
+}
+.avatar-holder {
+	height: 70px;
+	width: 70px;
+}
+footer div:first-child {
+	background-color: #323232;
+	color: white;
+}
+footer .row .contact-footer-infos hr, footer .row .local-adress-infos hr, footer .row .social-media-infos hr  {
+	border: 2px solid #e7b200;	
+}
+footer .row .contact-footer-infos ul li, footer .row .local-adress-infos ul li, footer .row .social-media-infos ul li {
+	list-style-type: none;
+}
+footer .row .contact-footer-infos h4, footer .row .local-adress-infos h4, footer .row .social-media-infos h4 {
+	font-style: italic;
+}
+.social-media-infos ul li a i {
+	transform: scale(1.5, 1.5);
+	color: #e7b200;
+	transition: transform 0.1s linear;
+}
+.social-media-infos ul li a i:hover {
+	border-radius: 50%;
+	transform: scale(1.9, 1.9);
+}
+.contact-footer-infos ul li a {
+	color: white;
+}
+.contact-footer-infos div h5 {
+	font-family: 'Italianno', cursive;
+	color: #e7b200;
+	font-size: 190%;
+}
+.contact-footer-infos div form {
+	display: flex;
+	justify-content: end;
+}
+.contact-footer-infos div form input {
+	border:none;
+	padding: 5px;
+
+}
+.contact-footer-infos div form input.add-email {
+	background-color: #e7b200;
+	border:none;
+	padding: 7px;
+}
+.contact-footer-infos div form input.add-email:hover {
+	color:white;
+	border:none;
+
+}
+.copyright-infos {
+	background-color:#191a19;
+	height: 10vh;
+	color: white;
+}
+
+/* Media Queries */
+/* Extra Small devices. */
+@media (min-width: 320px) and (max-width: 575px) {
+	ul.navbar-nav{
+		text-align: center !important;
+	}
+	.section-about-infos h2 {
+		text-align:center;
+	}
+	.w-100-sm {
+		width: 100%;
+		display: block;
+	}
+	
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+	ul.navbar-nav{
+		text-align: center !important;
+	}
+	.dropdown-menu {
+		text-align: center;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.dropdown-toggle::after {display:none}
+	.dropdown:hover .dropdown-menu {
+		display: block;
+		margin-top: 0;
+	 }
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.dropdown-toggle::after {display:none}
+	.dropdown:hover .dropdown-menu {
+		display: block;
+		margin-top: 0;
+	 }
+	
+}
+
+
+
+/*	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  */
+.bg-red {
+	background:red;
+}

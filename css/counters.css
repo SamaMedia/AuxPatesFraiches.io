@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+#counter div {
+	text-align: center;
+	font-weight: bold;
+}
+#counter div p {
+	font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+/*Media Queries*/
+/* Extra Small devices. */
+@media (min-width: 300px) and (max-width: 575px){
+	#counter div {
+		width:100% !important;
+		display: block;
+		margin-top: 10vh;
+		margin-bottom: 10vh;
+	}
+	#counter div span {
+		font-size: 2rem;
+	}
+	#counter div p {
+		font-size: 1.2rem;
+	}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 	
+	#counter div {
+		margin-top: 15vh;
+		margin-bottom: 15vh;
+	}
+	#counter div span {
+		font-size: 2.5rem;
+	}
+	#counter div p {
+		font-size: 1.5rem;
+	}
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+	#counter div {
+		margin-top: 15vh;
+		margin-bottom: 15vh;
+	}
+	#counter div span {
+		font-size: 2.5rem;
+	}
+	#counter div p {
+		font-size: 1.5rem;
+	}
+	
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	#counter div {
+		margin-top: 15vh;
+		margin-bottom: 15vh;
+	}
+	#counter div span {
+		font-size: 2.5rem;
+	}
+	#counter div p {
+		font-size: 1.5rem;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	#counter div {
+		margin-top: 15vh;
+		margin-bottom: 15vh;
+	}
+	#counter div span {
+		font-size: 2.5rem;
+	}
+	#counter div p {
+		font-size: 1.5rem;
+	}
+}

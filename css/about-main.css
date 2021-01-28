@@ -1,0 +1,104 @@
+/**/
+
+.bg-about-page {
+	background-image: url('../img/bg/ristorante-night-c.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+}
+.bg-about-page {
+	padding: 50% auto !important;
+	text-align: center;
+	color: white;
+}
+.bg-about-page div h2 {
+	color: white;
+}
+.bg-about-page div h1 {
+	color: #e7b200;
+	font-family: 'Italianno', cursive;
+}
+
+.btn-postule {
+	border-radius: 5rem;
+	background-color: #e7b200;
+	border: none;
+	transition: transform 0.1s linear;
+}
+.btn-postule:hover {
+	transform: scale(1.2, 1.2);
+	background-color: #e7b200;
+}
+.nc-header {
+	background-color: #323232 !important;
+}
+.avatar-img {
+	height: 70px;
+	width: 70px;
+}
+
+.team-divs div {
+
+}
+.team-divs div p {
+	
+}
+.overflow-hide {
+	overflow: hidden;
+}
+.reserve-container-r {
+	background-image: url('../img/bg/for-midi-3-c.jpg');
+	background-size: cover;
+	color: white;
+
+}
+.reserve-container-r a  {
+	border-radius: 5rem;
+	background-color: transparent;
+	border: 1px solid #e7b200;
+	color:#e7b200;
+}
+.reserve-container-r a:hover{
+	background-color: #e7b200;
+	border: 1px solid #e7b200;
+	color:#323232;
+}
+.apropos div h1, .apropos div h2 {
+	font-family: "Italianno", cursive;
+	font-size: 300%;
+	color: #e7b200;
+}
+.reserve-container-r h1 {
+	font-family: "Italianno", cursive;
+	font-size: 350%;
+	color: #e7b200;
+}
+
+/* Media Queries */
+@media (min-width: 200px) and (max-width: 565px){
+	
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+	.bg-about-page div h1 {
+		font-size: 4rem;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.bg-about-page div h1 {
+		font-size: 4rem;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 4000px) { 
+	
+	.bg-about-page div h1 {
+		font-size: 4rem;
+	}
+}

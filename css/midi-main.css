@@ -1,0 +1,139 @@
+/*
+font-family: 'Italianno', cursive;
+
+font-family: 'Jost', sans-serif;
+*/
+.head-infos-container {
+	background-image:url("../img/bg/for-midi-3-c.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+
+}
+
+.head-infos-container .container h4 {
+	font-style: italic;
+}
+.head-infos-container .container h1 {
+	color: #E7B200;
+	font-family: 'Italianno', cursive;
+	font-size: 5rem;
+}
+.head-infos-container .container p{
+	font-size: 1.2rem;
+}
+.head-infos-container-2 {
+	background-image:url("../img/bg/wine-c-2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	color:white;
+}.head-infos-container-2 .container h4 {
+	font-style: italic;
+}
+.head-infos-container-2 .container h1 {
+	color: #E7B200;
+	font-family: 'Italianno', cursive;
+	font-size: 5rem;
+}
+.head-infos-container-2 .container p{
+	font-size: 1.2rem;
+}
+
+.accordion {
+	
+}
+.pb-20vh {
+	padding-bottom: 15vh !important;
+}
+.accordion, h2 {
+	color:#000;
+}
+.accordion .card {
+	border: 1px solid #8b6400;
+}
+.accordion .card .card-header {
+
+}
+.accordion .card .card-header h2 button {
+	color: #8b6400;
+	font-weight:bold;
+}
+.accordion .card .card-header h2 button:focus {
+	border: 1px solid transparent;
+	outline-style: none;
+}
+.card-body ul {
+	padding-left: 0;
+}
+.reserve-container {
+
+}
+.reserve-container a {
+	border-radius: 5rem;
+	border:none;
+	background-color: #e5b821;
+	color:#313332;
+	padding:1%;
+}
+.reserve-container a:hover {
+	background-color: #313332;
+	color:#e5b821;
+}
+
+
+
+ 
+
+/* Media Queries */
+@media (min-width: 200px) and (max-width: 565px){
+	.head-infos-container .container h4 {
+		margin-top: 3em !important;
+	}
+	.head-infos-container .container h1 {
+		font-size: 3.5rem;
+	}
+	.head-infos-container .container p{
+		font-size: 1rem;
+	}
+	.accordion {
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+	.card-body .table tbody tr td {
+	}
+	.card-body .table {
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+	.head-infos-container .container h1 {
+		font-size: 4rem;
+	}
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+	.accordion {
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.accordion {
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 4000px) { 
+	.accordion {
+		padding-left: 5vw;
+		padding-right: 5vw;
+	}
+
+}

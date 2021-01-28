@@ -1,0 +1,53 @@
+.reserve-header {
+	background-image: url('../img/bg/empty-resto-c.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	padding:10vh 10vh;
+	color: white;
+}
+.reserve-header h1 {
+	font-family: 'Italianno', cursive;
+	color: #e7b200;
+}
+.btn-submit {
+	background-color:#e7b200;
+	color:  white;
+	border: 1px solid white;
+}
+.btn-submit:hover {
+	background-color:#e7b200;
+	color:#313332;
+	border: 1px solid #313332;
+}
+.e-text-color {
+	color:#e7b200;
+	font-family: "Italianno", cursive;
+	font-size: 300%;
+}
+
+/* Media Queries */
+@media (min-width: 200px) and (max-width: 565px){
+	
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+	
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.reserve-header h1 {
+		font-size: 4rem;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 4000px) { 
+	.reserve-header h1 {
+		font-size: 4rem;
+	}	
+}

@@ -1,0 +1,27 @@
+/* font-family: 'Italianno', cursive; */
+
+.ifonts-c div.row div div i {
+	text-align: center;
+	
+}
+.ifonts-c div.row div h2, .ifonts-c div.row div h3 {
+	color: #e7b200;
+	font-family: 'Italianno', cursive;
+	font-size: 250%;
+}
+.ifonts-c div.row h1, .map-c h2 {
+	font-family: "Italianno", cursive;
+	font-size: 300%;
+	color: #e7b200;
+}
+.map-c div iframe {
+	box-shadow: 3px 3px 10px gray;
+}
+.txt-unstyle {
+		text-decoration: none;
+		color: black;
+}
+.txt-unstyle:hover {
+	text-decoration: underline;
+	color: #e7b200;
+}

@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu-fl {
+	
+}
+.menu-flex {
+	margin-top: 10vh;
+	margin-bottom: 30vh !important;
+}
+.menu-flex div h1 {
+	margin-top: 5vh;
+	margin-bottom:15vh;
+	font-family: 'Italianno', cursive;
+	color: #e7b200;
+	font-weight: 500;
+	font-size: 3.5rem;
+}
+.menu-flex div h1:before {
+	content: ' ~ ';
+	position: relative;
+	top: 6px;
+}
+.menu-flex div h1:after {
+	content: ' ~ ';
+	position: relative;
+	top: 7	px;
+}
+.menu-flex .d-flex {
+	
+}
+.menu-flex .d-flex .c-click{
+	position: relative;
+}
+
+
+.menu-flex .d-flex .c-click img {
+	transition: opacity 0.1s ease-in;
+}
+.menu-flex .d-flex .c-click img:hover {
+	/*opacity: 0.6;*/
+}
+.menu-flex .d-flex .c-click .a-cont {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 200px;
+	width: 200px;
+	display: flex;
+	background-color: transparent;
+	text-align: center;
+
+}
+.menu-flex .d-flex .c-click .a-cont a{
+	position: absolute;
+	
+	display: none;
+	margin: auto auto !important;
+	
+}
+.menu-flex .d-flex img {
+	height: 200px;
+	width: 200px;
+	transition: all 4s ease-in-out;
+}
+.h-cap {
+	height: 200px;
+	width: 200px;
+}
+.a-cont a {
+	border: 0;
+	border-radius:0;
+	background: #313332;
+	transition: background 0.2s ease-in;
+}
+.a-cont a:hover {
+	background: #e7b200;
+	color: #313332;
+}
+.h-cap a:hover {text-decoration: none !important;}
+.h-cap h2 {
+	line-height: 200px;
+	color: #e7b200;
+	text-decoration: none;
+	transition: all 0.1s ease-in;
+}
+.h-cap h2:hover {
+	font-size: 230%;
+}
+.c-click img, .h-cap a{
+	
+}
+
+
+.menu-flex .h1-content {
+	
+}
+
+
+
+
+/*Media Queries*/
+/* Extra Small devices. */
+@media (min-width: 300px) and (max-width: 575px){
+	.menu-flex {
+		width: 50vw !important;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.menu-flex h1 {
+		font-size: 40px;
+	}
+	.h-cap a h2 {
+		font-size: 30px;
+	}
+	.menu-flex .d-flex .c-click .a-cont {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 150px;
+		width: 150px;
+	}
+	.menu-flex .d-flex img {
+		height: 150px;
+		width: 150px;
+	}
+	.h-cap {
+		height: 150px;
+		width: 150px;
+	}
+	.h-cap h2 {
+		line-height: 150px;
+		font-size: 2rem;
+	}
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px){ 
+	.menu-flex .d-flex .c-click .a-cont {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 150px;
+		width: 150px;
+	}
+	.menu-flex .d-flex img {
+		height: 150px;
+		width: 150px;
+	}
+	.h-cap {
+		height: 150px;
+		width: 150px;
+	}
+	.h-cap h2 {
+		line-height: 150px;
+		font-size: 2rem;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){ 
+	.menu-flex .d-flex .c-click .a-cont {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 150px;
+		width: 150px;
+	}
+	.menu-flex .d-flex img {
+		height: 150px;
+		width: 150px;
+	}
+	.h-cap {
+		height: 150px;
+		width: 150px;
+	}
+	.h-cap h2 {
+		line-height: 150px;
+		font-size: 2rem;
+	}
+	
+	.menu-flex .h1-content {
+		width: 50vw;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	
+}

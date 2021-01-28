@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="fr"><head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Aux Pâtes Fraîches - Menu Soir</title>
+		<link rel="stylesheet" href="../../lib/bootstrap4/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+		<link rel="stylesheet" href="../../css/main.css">
+		<link rel="stylesheet" href="../../css/midi-main.css">
+	</head>
+
+	<body class="p-0 m-0 bg-main-img">
+		<div class="container-fluid p-0 m-0 header-top fixed-top">
+			<header class="p-0 m-0" id="header-container">
+				<div class="w-100" id="top-nav">
+					<div class="container icons-container d-flex justify-content-between">
+						<div class="sm-icons pr-2">
+							<a href="https://www.pinterest.com/" target="#"><i class="fab fa-pinterest"></i></a>
+							<a href="https://www.instagram.com/" target="#"><i class="fab fa-instagram"></i></a>
+							<a href="https://www.facebook.com/" target="#"><i class="fab fa-facebook"></i></a>
+						</div>
+						<div class="search-bar-container">
+							<a class="btn-login"><i class="fas fa-user"></i></a>
+							<a href="#" class="search-button" id="searchBtn" data-toggle="tooltip" data-placement="bottom" title="Cliquez pour rechercher"><i class="fas fa-search"></i></a>								
+						</div>
+					</div>
+				</div>
+				<div class="search-nav">
+					<div class="container d-flex justify-content-between">
+						<button class="close-btn"><i class="fas fa-times"></i></button>
+						<form class="search-form d-flex justify-content-end">
+							<input type="search" name="search" placeholder="Search">
+							<input type="submit" value="Allez">
+						</form>
+					</div>
+				</div>
+				<nav id="posNav" class="navbar navbar-expand-lg navbar-light bg-light bgcolor">
+					<div class="container">
+						<a class="navbar-brand" href="../../index.html">
+							<img src="../../img/logos/logo-c.png" alt="logo">
+						</a>
+
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+							<!--<span class="navbar-toggler-icon"></span>-->
+							<i class="fas fa-bars"></i>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+								<ul class="navbar-nav ml-sm-auto">
+									<li class="nav-item">
+										<a class="nav-link" href="../../index.html">Acceuil <span class="sr-only">(current)</span></a>
+									</li>
+									<li class="nav-item dropdown" id="liDropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu</a>
+										<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="divDropDown">
+										  <a class="dropdown-item" href="midi.html">Midi</a>
+										  <a class="dropdown-item" href="soir.html" style="color: #e7b200 !important">Soir</a>
+										  <a class="dropdown-item" href="vins.html">Vins</a>
+										</div>
+									</li>
+									<li class="nav-item">
+											<a class="nav-link" href="../galery.html">Galerie</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="../about.html">À propos</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="../join.html">Nous Rejoindre</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="../reservez.html">Réservez En ligne</a>
+									</li>
+									
+								</ul>
+
+						</div>
+					</div>
+				</nav>				
+			</header>
+		</div>
+		<div class="space-div" style="height: 15vh";></div><!-- Un simple header transparent, pour éviter la mauvaise mise en place des éléments suivants. -->
+		
+		<section class="container-fluid head-infos-container">
+			<div class="container text-center p-4 py-4">
+				<div class="row flex-column justify-content-center my-5">
+					<h4 class="my-2">Découvrez nos plâts!</h4>
+					<h1 class="my-2 h1">Notre Menu de Soir</h1>
+					
+				</div>
+			</div>
+			<div class="container">
+				<div class="row flex-column justify-content-center bg-light">
+					<h2 class="w-100 text-center my-5" style="color:#313332;">Soir</h2>
+					<div class="accordion p-3 my-5" id="accordionExample">
+				<!-- 1 Entrées -->
+					  	<div class="card">
+
+					    	<div class="card-header" id="headingOne">
+					      		<h2 class="mb-0">
+					        		<button class="btn btn-link btn-block text-left d-flex flex-row justify-content-between" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+					         			Entrées
+					         			<span><i class="fas fa-sort-down"></i></span>
+					        		</button>
+					        		
+					      		</h2>
+					      		
+					    	</div>
+
+					    	<div id="collapseOne" class="collapse show clp" aria-labelledby="headingOne" data-parent="#accordionExample">
+					      		<div class="card-body">
+					       			<ul>
+					       				<li class="d-flex justify-content-between">Antipasto maison <span>15,95 $</li>
+					       				<li class="d-flex justify-content-between">Jambon de Parme avec figues <span>15,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Saumon fumé <span>15,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Moules à la vénitienne <span>14,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Prosciutto et melon <span>11,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Aubergines parmigiana <span>12.95 $</span></li>
+					       				<li class="d-flex justify-content-between">Bruschetta alla parmigiana <span>7,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Tomates et mozzarella frais <span>13,95 $</span></li>
+					       			</ul>
+					      		</div>
+					    	</div>
+					  	</div>
+
+				<!-- 2 Salades -->
+					  	<div class="card">
+					    	<div class="card-header" id="headingTwo">
+					      		<h2 class="mb-0">
+					        		<button class="btn btn-link btn-block text-left d-flex flex-row justify-content-between" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+					         			Salades
+					         			<span><i class="fas fa-sort-down"></i></span>
+					        		</button>
+					        		
+					      		</h2>
+					      		
+					    	</div>
+
+					    	<div id="collapseTwo" class="collapse show clp" aria-labelledby="headingTwo" data-parent="#accordionExample">
+					      		<div class="card-body">
+					       			<ul>
+					       				<li class="d-flex justify-content-between">Salade césar <span>8,95 $</span></li>
+					       					<ul class="d-block">
+					       						<li class="d-flex justify-content-between pl-3"><span style="text-decoration: underline;">Avec poulet</span> <span>14,95 $</span></li>
+					       					</ul>
+					       				
+					       				<li class="d-flex justify-content-between">Salade du chef <span>5,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Salade gorgonzola 10,95 $<span>10,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Salade césar <span>8,95 $</span></li>
+					       				<ul>
+					       					<li class="d-flex justify-content-between pl-3"><span style="text-decoration: underline;">Avec poulet</span> <span>14,95 $</span></li>
+					       				</ul>
+					       				<li class="d-flex justify-content-between">Salade italienne<span>6,95 $</span></li>
+					       			</ul>
+					      		</div>
+					    	</div>
+					  	</div>
+
+				<!-- 3 Soupes -->
+					  	<div class="card">
+					    	<div class="card-header" id="headingThree">
+					      		<h2 class="mb-0">
+					        		<button class="btn btn-link btn-block text-left d-flex flex-row justify-content-between" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+					         			Soupes
+					         			<span><i class="fas fa-sort-down"></i></span>
+					        		</button>
+					        		
+					      		</h2>
+					      		
+					    	</div>
+
+					    	<div id="collapseThree" class="collapse show clp" aria-labelledby="headingThree" data-parent="#accordionExample">
+					      		<div class="card-body">
+					       			<ul>
+					       				<li class="d-flex justify-content-between">Tortellini et bouillon de poulet<span>7,95 $<span></li>
+					       				<li class="d-flex justify-content-between">Minestrone <span>8,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Stracciatella avec œuf battu<span>7,95 $</span></li>
+					       			</ul>
+					      		</div>
+					    	</div>
+					  	</div>
+
+				<!-- 4 Entrées Pâtes  -->
+					  	<div class="card">
+					    	<div class="card-header" id="headingFour">
+					      		<h2 class="mb-0">
+					        		<button class="btn btn-link btn-block text-left d-flex flex-row justify-content-between" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+					         			Entrées de Pâtes
+					         			<span><i class="fas fa-sort-down"></i></span>
+					        		</button>
+					        		
+					      		</h2>
+					      		
+					    	</div>
+
+					    	<div id="collapseFour" class="collapse show clp" aria-labelledby="headingFour" data-parent="#accordionExample">
+					      		<div class="card-body">
+					       			<ul>
+					       				<li class="d-flex justify-content-between">Linguini aux palourdes<span>114,95 $<span></li>
+					       				<li class="d-flex justify-content-between">Cannelloni au four<span>14,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Cheveux d’ange et sauce tomate <span>13,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Fettucine Alfredo<span>13,95 $</span></li>
+					       			</ul>
+					      		</div>
+					    	</div>
+					  	</div>
+
+				<!-- 5 Pâtes  -->
+					  	<div class="card">
+					    	<div class="card-header" id="headingFive">
+					      		<h2 class="mb-0">
+					        		<button class="btn btn-link btn-block text-left d-flex flex-row justify-content-between" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+					         			Pâtes 
+					         			<span><i class="fas fa-sort-down"></i></span>
+					        		</button>
+					        		
+					      		</h2>
+					      		
+					    	</div>
+
+					    	<div id="collapseFive" class="collapse show clp" aria-labelledby="headingFive" data-parent="#accordionExample">
+					      		<div class="card-body">
+					       			<ul>
+					       				<li class="d-flex justify-content-between">Cannelloni au four <span>23,95 $<span></li>
+					       				<li class="d-flex justify-content-between">Lasagne<span>22,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Penne avec saucisse italienne épicée<span>25,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Risotto aux champignons<span>24,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Spaghetti Giuseppe<span> 24.95 $<span></li>
+					       				<li class="d-flex justify-content-between">Farfalle avec légumes grillés <span>23,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Linguine au pesto<span>23,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Manicotti avec tomates séchées<span>23,95 $</span></li>
+					       			</ul>
+					      		</div>
+					    	</div>
+					  	</div>
+
+				<!-- 6 Poulet  -->
+					  	<div class="card">
+					    	<div class="card-header" id="headingSix">
+					      		<h2 class="mb-0">
+					        		<button class="btn btn-link btn-block text-left d-flex flex-row justify-content-between" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+					         			Poulet 
+					         			<span><i class="fas fa-sort-down"></i></span>
+					        		</button>
+					        		
+					      		</h2>
+					      		
+					    	</div>
+
+					    	<div id="collapseSix" class="collapse show clp" aria-labelledby="headingSix" data-parent="#accordionExample">
+					      		<div class="card-body">
+					       			<ul>
+					       				<li class="d-flex justify-content-between">Poulet chasseur <span>25,95 $ <span></li>
+					       				<li class="d-flex justify-content-between">Poulet à la Toscane <span> 26,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Poulet parmesan <span> 25,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Poulet florentin<span> 26,95 $</span></li>
+					       			</ul>
+					      		</div>
+					    	</div>
+					  	</div>
+				<!-- 7 Poisson  -->
+					  	<div class="card">
+					    	<div class="card-header" id="headingSeven">
+					      		<h2 class="mb-0">
+					        		<button class="btn btn-link btn-block text-left d-flex flex-row justify-content-between" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+					         			Poisson
+					         			<span><i class="fas fa-sort-down"></i></span>
+					        		</button>
+					        		
+					      		</h2>
+					      		
+					    	</div>
+
+					    	<div id="collapseSeven" class="collapse show clp" aria-labelledby="headingSeven" data-parent="#accordionExample">
+					      		<div class="card-body">
+					       			<ul>
+					       				<li class="d-flex justify-content-between">Plateau de fruits de mer <span>69,95 $<span></li>
+					       				<li class="d-flex justify-content-between">Homard frais<span>26,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Saumon poché ou grillé <span> 30,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Filet de perchaude à la Capri<span>26,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Filet de sole <span>24,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Filet de truite <span>30,95 $</span></li>
+					       			</ul>
+					      		</div>
+					    	</div>
+					  	</div>
+				<!-- 8 Veau -->
+					  	<div class="card">
+					    	<div class="card-header" id="headingEight">
+					      		<h2 class="mb-0">
+					        		<button class="btn btn-link btn-block text-left d-flex flex-row justify-content-between" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+					         			Veau 
+					         			<span><i class="fas fa-sort-down"></i></span>
+					        		</button>
+					        		
+					      		</h2>
+					      		
+					    	</div>
+
+					    	<div id="collapseEight" class="collapse show clp" aria-labelledby="headingEight" data-parent="#accordionExample">
+					      		<div class="card-body">
+					       			<ul>
+					       				<li class="d-flex justify-content-between">Côtelette de veau panée <span>24,95 $<span></li>
+					       				<li class="d-flex justify-content-between">Rôti de veau <span>23,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Veau Cordon bleu<span> 32,95 $ </span></li>
+					       				<li class="d-flex justify-content-between">Veau Gorgonzola<span>27,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Veau parmesan<span>25,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Veau Saltimbocca<span>26,95 $</span></li>
+					       			</ul>
+					      		</div>
+					    	</div>
+					  	</div>
+				<!-- 9 Grillades  -->
+					  	<div class="card">
+					    	<div class="card-header" id="headingNine">
+					      		<h2 class="mb-0">
+					        		<button class="btn btn-link btn-block text-left d-flex flex-row justify-content-between" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+					         			Grillades  
+					         			<span><i class="fas fa-sort-down"></i></span>
+					        		</button>
+					        		
+					      		</h2>
+					      		
+					    	</div>
+
+					    	<div id="collapseNine" class="collapse show clp" aria-labelledby="headingNine" data-parent="#accordionExample">
+					      		<div class="card-body">
+					       			<ul>
+					       				<li class="d-flex justify-content-between">Filet mignon et langoustines<span> 49,95 $ <span></li>
+					       				<li class="d-flex justify-content-between">Carré d’agneau<span>42,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Bifteck de surlonge 12 oz<span> 29,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Longe de veau <span>42,95 $</span></li>
+					       			</ul>
+					      		</div>
+					    	</div>
+					  	</div>
+				<!-- 10 Pizza  -->
+					  	<div class="card">
+					    	<div class="card-header" id="headingTen">
+					      		<h2 class="mb-0">
+					        		<button class="btn btn-link btn-block text-left d-flex flex-row justify-content-between" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+					         			Pizza  
+					         			<span><i class="fas fa-sort-down"></i></span>
+					        		</button>
+					        		
+					      		</h2>
+					      		
+					    	</div>
+
+					    	<div id="collapseTen" class="collapse show clp" aria-labelledby="headingTen" data-parent="#accordionExample">
+					      		<div class="card-body">
+					       			<ul>
+					       				<li class="d-flex justify-content-between">Piemonte<span>20.95 $<span></li>
+					       				<li class="d-flex justify-content-between">Montanara <span>17,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Margherita<span>15.95 $</span></li>
+					       				<li class="d-flex justify-content-between">Formaggi 1<span>19.95 $</span></li>
+					       				<li class="d-flex justify-content-between">Cacciatore<span>19.95 $</span></li>
+					       			</ul>
+					      		</div>
+					    	</div>
+					  	</div>
+				<!-- 11 Desserts  -->
+					  	<div class="card">
+					    	<div class="card-header" id="headingEleven">
+					      		<h2 class="mb-0">
+					        		<button class="btn btn-link btn-block text-left d-flex flex-row justify-content-between" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+					         			Desserts  
+					         			<span><i class="fas fa-sort-down"></i></span>
+					        		</button>
+					        		
+					      		</h2>
+					      		
+					    	</div>
+
+					    	<div id="collapseEleven" class="collapse show clp" aria-labelledby="headingEleven" data-parent="#accordionExample">
+					      		<div class="card-body">
+					       			<ul>
+					       				<li class="d-flex justify-content-between">Sorbet à la mangue et aux framboises<span>8,49 $<span></li>
+					       				<li class="d-flex justify-content-between">Sorbet au citron <span>7,49 $</span></li>
+					       				<li class="d-flex justify-content-between">Crème caramel <span>7,49 $</span></li>
+					       				<li class="d-flex justify-content-between">Tiramisu <span>7,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Crème glacée à la vanille <span>3,95 $</span></li>
+					       				<li class="d-flex justify-content-between">Mousse au chocolat <span>7,49 $</span></li>
+					       			</ul>
+					      		</div>
+					    	</div>
+					  	</div>
+					  	
+					</div>
+					
+				</div>
+			</div>
+			<!-- -->
+			<div class="container-fluid mt-3 py-5">
+				<div class="row text-center reserve-container my-5">
+					<h1 class="w-100 my-3">Allons dîner!</h1>
+					<a href="../reservez.html" class="btn btn-success text-center ml-auto mr-auto my-4">Réservez maintenant</a>
+				</div>
+			</div>
+		</section>
+		
+
+		<footer class="container-fluid">
+			<div class="row justify-content-around flex-column flex-sm-row py-5">
+				<div class="contact-footer-infos mx-4">
+					<h4 class="my-3 pt-3">Contactez nous:</h4>
+					<hr class="justify-content-start">
+					<ul class="pl-0">
+						<li>Tél: <a href="">1 800 82-PÂTES (72837)</a></li>
+						<li>Courreil: <a href="">info@auxpatesfraiches.ca</a></li>
+						<li>Adresse: <a href="">2827, chemin Merivale - Ottawa (ON) K2H 5B6</a></li>
+					</ul>
+					<div>
+						<h5>Rejoinez nous au newsletter</h5>
+						<form class="d-flex justify-content-start">
+							<input type="email" name="newEmail">
+							<input class="add-email" type="submit" value="S'abonner!">
+						</form>
+					</div>
+				</div>
+				<div class="local-adress-infos mx-4">
+					<h4 class="my-3 pt-3">Ouverture Locale</h4>
+					<hr class="justify-content-start"/>
+					<p>- <b>Vendredi</b> : 10 h à 22 h </p>
+					<p>- <b>Samedi</b> : 10 h à 0 h</p>
+					<p>- <b>Dimanche au jeudi</b> : 10 h à 21 h</p>
+				</div>
+				<div class="social-media-infos mx-4">
+					<h4 class="my-3 pt-3">Suivez Nous Partout!</h4>
+					<hr class="justify-content-start"/>
+					<ul class="d-flex flex-row justify-content-center pl-0 pt-3">
+						<li class="mx-3"><a class="p-2" href="#"><i class="fab fa-pinterest"></i></a></li>
+						<li class="mx-3"><a class="p-2" href="#"><i class="fab fa-instagram"></i></a></li>
+						<li class="mx-3"><a class="p-2" href="#"><i class="fab fa-facebook"></i></a></li>
+					</ul>
+					<div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="row copyright-infos d-flex justify-content-center align-items-center"> Hilal Dev <span> </span> <span class="px-1"> &#169; </span>  <span> </span> 2021</div>
+		</footer>
+		<script src="../../lib/jquery/jquery-3.5.1.min.js"></script>
+		<!-- <script src="lib/popper/popper.min.js"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>		
+		<script src="../../lib/bootstrap4/js/bootstrap.min.js"></script>		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" crossorigin="anonymous"></script>
+		<script src="../../scripts/effects.js"></script>
+		<script src="../../scripts/css-fix.js"></script>
+		<script>
+
+			$(document).ready(function() {
+				const navbarDrop = $('navbarNavDropdown');
+				const bodyCard = $('.card .collapse ');
+				
+				
+				if ( bodyCard.hasClass('show') ) {
+					$('.clp').collapse()
+				}//collapse manuel pour les cartes car elle contient la classe collapse utilisé dans le dropdown menu.
+				
+				
+
+			});
+		</script>
+	</body>
+</html>
